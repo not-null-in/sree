@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom styles here */
+.hero-section {
+    /* We'll handle the background image in the HTML for now */
+    background-size: cover;
+    background-position: center;
+}

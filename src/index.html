@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sree Panchalingeshwara Engineering Works - Metal Craftsmanship in Kundamkuzhy</title>
+    <meta name="description" content="Expert metalwork and engineering solutions in Kundamkuzhy. Specializing in grills, gates, rolling shutters, staircases, roof works, steel windows, and cast iron products.">
+    <meta name="keywords" content="metalwork, engineering, grills, gates, rolling shutters, staircases, roof works, steel windows, cast iron, Kundamkuzhy">
+</head>
+<body class="font-sans bg-gray-100">
+    <header class="bg-blue-800 text-white fixed w-full z-10" x-data="{ isOpen: false }">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex items-center justify-between">
+                <div>
+                    <a class="text-xl font-bold flex items-center" href="#home">
+                        <i class="fas fa-cogs mr-2"></i>
+                        <span>Sree Panchalingeshwara</span>
+                    </a>
+                </div>
+                <div class="hidden md:flex">
+                    <a class="mx-3 hover:text-gray-300" href="#home">Home</a>
+                    <a class="mx-3 hover:text-gray-300" href="#services">Services</a>
+                    <a class="mx-3 hover:text-gray-300" href="#about">About</a>
+                    <a class="mx-3 hover:text-gray-300" href="#contact">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button @click="isOpen = !isOpen" type="button" class="text-gray-300 hover:text-white focus:outline-none focus:text-white">
+                        <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                            <path x-show="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
+                            <path x-show="isOpen" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div x-show="isOpen" class="md:hidden mt-3">
+                <a class="block py-2 hover:text-gray-300" href="#home">Home</a>
+                <a class="block py-2 hover:text-gray-300" href="#services">Services</a>
+                <a class="block py-2 hover:text-gray-300" href="#about">About</a>
+                <a class="block py-2 hover:text-gray-300" href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero-section h-screen flex items-center justify-center text-white" style="background-image: url('https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');">            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4" data-aos="fade-down" data-aos-delay="200">Sree
+                    Panchalingeshwara</h1>
+                <h2 class="text-3xl md:text-4xl font-semibold mb-4" data-aos="fade-up" data-aos-delay="300">Engineering
+                    Works</h2>
+                <p class="text-xl md:text-2xl mb-8" data-aos="fade-up" data-aos-delay="400">Excellence in Metal
+                    Craftsmanship</p>
+                <a href="#contact"
+                    class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+                    data-aos="zoom-in" data-aos-delay="600">
+                    <i class="fas fa-envelope mr-2"></i>Get a Quote
+                </a>
+            </div>
+        </section>
+
+        <section id="services" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">Our Services</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-door-open text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-2xl font-bold mb-4">Grills & Gates</h3>
+                        <p>Custom designed and expertly crafted grills and gates for enhanced security and aesthetics.
+                        </p>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-warehouse text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-2xl font-bold mb-4">Rolling Shutters</h3>
+                        <p>Durable and secure rolling shutters for commercial and residential properties.</p>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-stairs text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-2xl font-bold mb-4">Staircases</h3>
+                        <p>Beautiful and functional staircases that enhance the look of any space.</p>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="500">
+                        <i class="fas fa-home text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-2xl font-bold mb-4">Roof Works</h3>
+                        <p>Comprehensive roofing solutions for all types of buildings and structures.</p>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="600">
+                        <i class="fas fa-window-maximize text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-2xl font-bold mb-4">Steel Windows</h3>
+                        <p>High-quality steel windows that combine durability with aesthetic appeal.</p>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg shadow-lg p-6" data-aos="fade-up" data-aos-delay="700">
+                        <i class="fas fa-industry text-4xl text-blue-600 mb-4"></i>
+                        <h3 class="text-2xl font-bold mb-4">Cast Iron Works</h3>
+                        <p>Versatile cast iron products for various applications in construction and design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    <section id="gallery" class="py-20 bg-gray-200">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">Our Work</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="work-item relative overflow-hidden rounded-lg shadow-md group">
+                    <img src="https://images.unsplash.com/photo-1601901544977-73c505cf4255?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Custom gate installation" class="w-full h-64 object-cover transition-transform duration-300 ease-in-out group-hover:scale-110">
+                    <div class="work-content absolute inset-x-0 bottom-0 bg-black bg-opacity-70 text-white p-4 translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+                        <h3 class="text-xl font-bold mb-2">Custom Gate Installation</h3>
+                        <p>Expertly crafted and installed custom gate for enhanced security and aesthetics.</p>
+                    </div>
+                </div>
+                <div class="work-item relative overflow-hidden rounded-lg shadow-md group">
+                    <img src="https://images.unsplash.com/photo-1601901544977-73c505cf4255?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Elegant staircase design" class="w-full h-64 object-cover transition-transform duration-300 ease-in-out group-hover:scale-110">
+                    <div class="work-content absolute inset-x-0 bottom-0 bg-black bg-opacity-70 text-white p-4 translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+                        <h3 class="text-xl font-bold mb-2">Elegant Staircase Design</h3>
+                        <p>Beautiful and functional staircase that enhances the look of the space.</p>
+                    </div>
+                </div>
+                <div class="work-item relative overflow-hidden rounded-lg shadow-md group">
+                    <img src="https://images.unsplash.com/photo-1601901544977-73c505cf4255?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Industrial rolling shutter" class="w-full h-64 object-cover transition-transform duration-300 ease-in-out group-hover:scale-110">
+                    <div class="work-content absolute inset-x-0 bottom-0 bg-black bg-opacity-70 text-white p-4 translate-y-full transition-transform duration-300 ease-in-out group-hover:translate-y-0">
+                        <h3 class="text-xl font-bold mb-2">Industrial Rolling Shutter</h3>
+                        <p>Durable and secure rolling shutter installation for industrial use.</p>
+                    </div>
+                </div>
+                <!-- ... (repeat for other work items) ... -->
+            </div>
+        </div>
+    </section>
+        <section id="about" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">About Us</h2>
+                <div class="flex flex-wrap items-center">
+                    <div class="w-full md:w-1/2 mb-8 md:mb-0" data-aos="fade-right">
+                        <img src="https://images.unsplash.com/photo-1601901544977-73c505cf4255?q=80&w=1462&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sree Panchalingeshwara Engineering Works facility"
+                            class="rounded-lg shadow-lg">
+                    </div>
+                    <div class="w-full md:w-1/2 md:pl-8"  >
+                        <p class="text-xl mb-6">At Sree Panchalingeshwara Engineering Works, we bring expertise and
+                            innovation to every project. Based in Kundamkuzhy, we've established ourselves as a trusted
+                            name in metalwork and engineering solutions.</p>
+                        <p class="text-xl mb-6">With years of experience and a dedicated team of skilled professionals,
+                            we take pride in delivering high-quality products and services that meet and exceed our
+                            clients' expectations.</p>
+                        <a href="#contact"
+                            class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110 inline-block">
+                            <i class="fas fa-handshake mr-2"></i>Work With Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-blue-900 text-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold mb-8 text-center" data-aos="fade-up">Contact Us</h2>
+                <div class="max-w-lg mx-auto text-center mb-8" data-aos="fade-up" data-aos-delay="200">
+                    <p class="text-xl mb-4">Ready to start your project? Get in touch with us today!</p>
+                    <p class="font-bold text-2xl mb-2">Abeesh. C</p>
+                    <p class="mb-2"><i class="fas fa-phone mr-2"></i>9946 543 597 / 8547 040 244</p>
+                    <p><i class="fas fa-map-marker-alt mr-2"></i>Kundamkuzhy</p>
+                </div>
+                <form id="contact-form" class="max-w-lg mx-auto" data-aos="fade-up" data-aos-delay="400" action="https://formspree.io/f/xqaznrbn" method="POST">
+                    <div class="mb-4">
+                        <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="name" name="name" type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-4">
+                        <input
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="email" name="email" type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-4">
+                        <textarea
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <button
+                            class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+                            type="submit">
+                            <i class="fas fa-paper-plane mr-2"></i>Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-blue-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Sree Panchalingeshwara Engineering Works. All rights reserved.</p>
+        </div>
+    </footer>
+    <a href="https://wa.me/919946543597" class="fixed bottom-5 right-5 bg-green-500 text-white rounded-full w-16 h-16 flex items-center justify-center text-3xl shadow-lg hover:bg-green-600 transition-transform duration-300 ease-in-out hover:scale-110 z-50" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+</html>
